@@ -39,8 +39,7 @@ def hello_world():
     if ff=="false":
         f1=open("myfile.txt","a")
         f1.close()
-        f = subprocess.Popen(["python", "a.py"])
-    
+        f = os.popen('python telegboot.py')
 
     f = os.popen(str(aa))
     now = f.read()  
